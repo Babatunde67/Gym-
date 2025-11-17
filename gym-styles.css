@@ -1,0 +1,180 @@
+/* BODY STYLES */
+body {
+    background-color: #121212; /* dark gym background */
+    font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+#container {
+    width: 900px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: #1e1e1e;
+    border-left: solid 2px #ff4d00;
+    border-right: solid 2px #ff4d00;
+    box-shadow: 0px 0px 15px rgba(255, 77, 0, 0.4);
+    border-radius: 8px;
+}
+
+/* TEXT STYLES */
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 64px;
+    color: #ff4d00;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 22px;
+    color: #aaa;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ff4d00;
+    text-transform: uppercase;
+}
+
+/* PARAGRAPH STYLES */
+p {
+    font-size: 16px;
+    color: #d4d4d4;
+    line-height: 1.6;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* MENU */
+#menu {
+    width: 200px;
+    float: left;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    background-color: #262626;
+    border: 1px solid #ff4d00;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 8px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#menu li:hover {
+    background-color: #ff4d00;
+    transform: scale(1.05);
+}
+
+#menu a:link, #menu a:visited {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+#menu a:hover, #menu a:active {
+    color: #000;
+}
+
+/* MAIN SECTION */
+#main {
+    margin-left: 230px;
+}
+
+#main h3 {
+    color: #ff4d00;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#main a:link, #main a:visited {
+    color: #ff4d00;
+    text-decoration: underline;
+}
+
+#main a:hover, #main a:active {
+    color: #00bfff;
+}
+
+/* IMAGE CLASS (for header or floats) */
+.rightfloat {
+    border: 2px solid #ff4d00;
+    margin: 10px;
+    float: right;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(255, 77, 0, 0.4);
+}
+
+/* IMAGE ROW FOR SUBPAGES (3 images side by side) */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.image-row img {
+    width: 28%;        /* roughly 3 images in a row with spacing */
+    height: 180px;     /* fixed height */
+    object-fit: cover; /* keeps aspect ratio, crops excess */
+    border: 2px solid #ff4d00;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(255, 77, 0, 0.4);
+}
+
+/* FOOTER */
+#footer {
+    background-color: #ff4d00;
+    margin-top: 30px;
+    clear: both;
+    border-radius: 4px;
+}
+
+#footer p {
+    font-size: 14px;
+    padding: 12px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
+
+#footer a:link, #footer a:visited {
+    color: #000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#footer a:hover, #footer a:active {
+    color: #fff;
+}
+
+/* GENERAL LINKS */
+a:link, a:visited {
+    color: #ff4d00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #00bfff;
+    text-decoration: underline;
+}
